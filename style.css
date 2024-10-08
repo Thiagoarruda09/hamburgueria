@@ -1,0 +1,47 @@
+@font-face {
+    font-family:'fonte1' ;
+    src: url(fontes/Happy\ Food.otf);
+}
+@font-face {
+    font-family:'fonte2' ;
+    src: url(fontes/Roboto-Black.ttf);
+}
+
+.fonteCor1 {
+    color: #71381D;
+}
+.bg1{
+    background-color: #71381D;
+}
+.bg2{
+    background-image: linear-gradient(to right, black, #71381D);
+}
+.hover:hover{
+    text-decoration: underline;
+    border-radius: 5px;
+    color: #71381D;
+    
+}
+
+.hover2:hover{
+    box-shadow: 10px 10px 10px #71381D;
+}
+
+
+h1, h2, h3{
+    font-family: "fonte1";
+
+}
+p{font-family:'fonte2';}
+
+footer{
+    border-top: 1px solid #FFCA2C;
+}
+header{
+    border-bottom: 1px solid #FFCA2C;
+    border-top: 1px solid #FFCA2C;
+}
+
+
+
+    
